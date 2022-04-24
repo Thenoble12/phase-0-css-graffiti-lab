@@ -1,1 +1,22 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+    display: none;
+    background-color: red; 
+}
+
+[class="slick wicked"] {
+    display: none;    
+}
+
+[class="parent"] {
+    position: sticky;
+    top: 500;
+    background-color: red;  
+    border: 2px solid #4CAF50; 
+    rotate: 180;
+}
+
+[id="tag-2"] {
+    display: hidden;
+}
